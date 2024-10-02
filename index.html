@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela De Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="campos tela-login">
+        <h1>Login</h1>
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="text" id="email" placeholder="Email">
+        <input type="password" id="senha" placeholder="Senha">
+        <button class="btnLogin" onclick="DesabilitarLogin()">Logar</button>
+    </div>
+
+    <div class="campos display-off img-login">
+        <h1>Você deseja conseguir informações de um notebook ou desktop?</h1>
+        <div class="imagens">
+            <a href="#" class="imagem-container" onclick="mostrarMenu('notebook')">
+                <img src="notebook.png" alt="Notebook">
+            </a>
+            <a href="#" class="imagem-container" onclick="mostrarMenu('desktop')">
+                <img src="desktop.png" alt="Desktop">
+            </a>
+        </div>
+    </div>
+
+    <div id="opcoes" style="display:none;">
+        <h2>Escolhas de componentes:</h2>
+        <div id="menu"></div>
+        <button onclick=" mostrarResumo()" class="montar-button">Montar</button>
+    </div>
+    <script src="/script.js">
+    </script>
+</body>
+</html>

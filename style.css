@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(to right, rgb(33, 33, 231), rgb(150, 3, 150));
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.campos h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campos {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+.campos input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 4px;
+}
+
+.campos button {
+    width: 100%;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.campos button:hover {
+    background-color: darkblue;
+}
+.display-off{
+    display: none;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.imagem-container {
+    text-align: center;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagem-container img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.btnLogin {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btnLogin:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btnLogin:active {
+    transform: scale(0.95);
+}
+.montar-button{
+    width: 170px;
+}
+#btnVoltar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#btnVoltar:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#btnVoltar:active {
+    transform: scale(0.95);
+}
